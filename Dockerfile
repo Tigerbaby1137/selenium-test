@@ -12,5 +12,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY tests/ ./tests/
 
 # Command to run the tests
-CMD ["pytest", "tests/test_google.py"]
+CMD ["pytest", "*/test_google.py"]
 

@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Replace with your Git repository URL
-                git 'https://github.com/your-repo/selenium-demo.git'
+                git 'https://github.com/Tigerbaby1137/selenium-test.git'
             }
         }
         stage('Build Docker Image') {

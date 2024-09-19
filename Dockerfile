@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the test scripts
-COPY tests/ ./tests/
+COPY tests_google.py ./tests/
 
 # Command to run the tests
 CMD ["pytest", "*/test_google.py"]
